@@ -147,6 +147,7 @@ INSERT INTO `platos` (`ID`, `nombre`, `descripcion`, `precio`, `tipo`) VALUES
 
 CREATE TABLE `reservas` (
   `ID` int(11) NOT NULL,
+  `id_usuario` int(11) NOT NULL,
   `dia` date NOT NULL,
   `horario` int(11) NOT NULL,
   `cantidad` int(11) NOT NULL,
