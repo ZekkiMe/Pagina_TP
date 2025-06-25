@@ -33,12 +33,13 @@ $cantidad = $_POST["cantidad"];
 $nombre = $_POST["nombre"];
 $mail = $_POST["mail"];
 $observaciones = $_POST["observaciones"];
+$uid = $_POST["uid"];
 
 $horario = SacarHorario($horario);
 
 try {
     include("../Controlador/reservar.php");
-    RealizarReserva($fecha, $horario, $cantidad, $nombre, $mail, $observaciones);
+    RealizarReserva($fecha, $horario, $cantidad, $nombre, $mail, $observaciones, $uid);
 
     session_start();
     $_SESSION["fecha"] = $fecha;
@@ -47,6 +48,7 @@ try {
     $_SESSION["nombre_r"] = $nombre;
     $_SESSION["mail"] = $mail;
     $_SESSION["observaciones"] = $observaciones;
+    $_SESSION["uid"] = $uid;
 
     header("Location: http://localhost/Pagina_TP/Vista/reserva_completa.php");
 } catch (PDOException $e) {
