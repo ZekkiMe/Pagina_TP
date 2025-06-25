@@ -27,13 +27,15 @@
 
             <div class="contenedor">
                 <label id="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <input type="text" id="nombre" name="nombre" value="<?php echo ($_SESSION["nombre"]); ?>" required>
 
                 <label id="mail">Mail</label>
-                <input type="email" id="mail" name="mail" required>
+                <input type="email" id="mail" name="mail" value="<?php echo ($_SESSION["mail"]); ?>" required>
 
                 <label id="observaciones">Observaciones</label>
                 <input type="text" id="observaciones" name="observaciones" placeholder="Si hay niños, celiacos, etc.">
+
+                <input type="text" id="uid" name="uid" style="visibility: hidden" value="<?php echo $_SESSION["ID"];?>">
 
                 <div class="botones">
                     <button class="cancelar"><a href="form_dispo.php" class="a_cancelar">Cancelar</a>
