@@ -208,7 +208,7 @@ function LeerReservasUsuario($mail)
                             </form>
                             </td>
                         <td>
-                        <form action='../Vista/editar_reserva.php' method='post' id='datos' target='_blank'>                            
+                        <form action='../Vista/editar_reserva.php' method='post' id='datos'>                            
                             <input type='number' value=" . $tipo["ID"] . " name='ID'>
                             <input type='text' value='" . $horario . "' name='horario'>
                             <input type='date' value='" . $fecha_actual . "' name='dia'>

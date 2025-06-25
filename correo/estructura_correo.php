@@ -38,8 +38,7 @@ function enviarCorreo($nombre_usuario, $email_usuario, $titulo, $message, $msj_s
 
         return True;
     } catch (Exception $e) {
-        echo "El mensaje no pudo ser enviado. Error de PHPMailer: {$mail->ErrorInfo}";
-        return False;
+        return "El mensaje no pudo ser enviado. Error de PHPMailer: {$mail->ErrorInfo}";
     }
 }
 ?>

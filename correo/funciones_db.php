@@ -2,7 +2,7 @@
 
 require '../Controlador/conexion.php';
 
-function cumplesEnviados($id_usuario) {
+function cumplesEnviados($id_usuario, $tipo_correo) {
     global $base;
     $ciclo = date("Y");
 
@@ -13,12 +13,13 @@ function cumplesEnviados($id_usuario) {
             correos_enviados
         WHERE
             id_usuario = :id_usuario
-            AND tipo_correo = 'cumpleaños'
+            AND tipo_correo = :tipo
             AND YEAR(fecha_envio) = :ciclo
     ";
     $resultado = $base->prepare($qry);
     $resultado->bindParam(':id_usuario', $id_usuario);
     $resultado->bindParam(':ciclo', $ciclo);
+    $resultado->bindParam(':tipo', $tipo_correo);
     $resultado->execute();
 
     return $resultado->fetchColumn() > 0;
