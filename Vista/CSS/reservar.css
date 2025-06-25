@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Philosopher', serif;
+}
+
+main{
+    background-color: rgba(93, 35, 35, 0.89);
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+input{
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+}
+
+
+label{
+    margin: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.botones{
+    width: 700px;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cancelar{
+    font-size: 2em;
+    width: 200px;
+    height: 50px;
+    color: black;
+}
+
+.enviar{
+    font-size: 2em;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+}
+
+.a_cancelar:link {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:active {
+    text-decoration: none;
+    color: black;
+}

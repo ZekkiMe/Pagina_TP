@@ -1,0 +1,68 @@
+body {
+  background-color: rgba(93, 35, 35, 0.89);
+  margin: 0px;
+}
+
+.alto-centro {
+  background-image: url("../Imagenes/banner_pasta.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.espacio {
+  height: 50px;
+}
+
+.historia {
+  background-color: rgba(245, 245, 245, 0.85);
+  margin: 0%;
+  padding: 40px;
+  color: black;
+  border-radius: 5%;
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 3em;
+  text-align: center;
+}
+
+p{
+  font-size: 2em;
+  hyphens: auto;
+  padding: 10px;
+}
+
+.comidas{
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.85);
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.especial{
+  border-radius: 5%;
+  width: 100%;
+  padding: 10px;
+}
+
+.carroucel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+}
+
+.plato{
+  height: 200px;
+  width: 200px;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Philosopher', serif;
+}
+
+main{
+    background-color: rgba(93, 35, 35, 0.89);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+label{
+    margin: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+input{
+    margin: 10px;
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+}
+
+.botones{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ya_tengo{
+    font-size: 2em;
+    width: 200px;
+    height: 50px;
+    color: black;
+}
+
+.enviar{
+    font-size: 2em;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+}
+
+.a_ya:link {
+    text-decoration: none;
+    color: black;
+}
+
+.a_ya:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.a_ya:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.a_ya:active {
+    text-decoration: none;
+    color: black;
+}

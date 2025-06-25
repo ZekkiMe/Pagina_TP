@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    width: 15em;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(91, 64, 64);
+}
+
+
+.sec_usuario {
+    font-size: 2em;
+    margin-top: 10%;
+    padding: 2%;
+    color: white;
+}
+
+.sec_usuario:link {
+    text-decoration: none;
+}
+
+.sec_usuario:visited {
+    text-decoration: none;
+}
+
+.sec_usuario:hover {
+    text-decoration: none;
+    background-color: rgb(66, 34, 34);
+}
+
+.sec_usuario:active {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: rgb(134, 72, 72);
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+
+h1{
+    color: white;
+}
+
+.dato {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-size: 2em;
+    margin: 2%;
+    padding: 2%;
+    font-weight: bold;
+}
+
+input{
+    height: 3em;
+    width: 20em;
+    text-align: center;
+}
+
+button{
+    margin: 2%;
+    color: black;
+    padding: 1%;
+    font-size: 2em;
+}
+
+.editar:link {
+    text-decoration: none;
+    color: black;
+}
+
+.editar:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.editar:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.editar:active {
+    text-decoration: none;
+    color: black;
+}

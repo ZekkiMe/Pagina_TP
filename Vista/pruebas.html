@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Carrera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Carrera:</h1>
+    <form action="reservar.php" method="post">
+
+        <label id="dia">Día</label>
+        <input type="date" id="dia" name="dia" min="" required>
+        <label id="horario">Carrera</label>
+        <input type="text" multiple list="horarios" id="horario" name="horario" required>
+
+        <datalist id="horarios">
+            <option value="dosarrollo de software"></option>
+            <option value="analisis de datos (viejo)"></option>
+            <option value="analisis de datos (nuevo)"></option>
+        </datalist>
+
+        <div class="botones">
+            <button class="ya_tengo"><a href="#" class="a_ya">Ya reservé</a></button>
+            <input type="submit" value="Consultar" class="enviar">
+        </div>
+    </form>
+</body>
+</html>

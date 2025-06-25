@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    background-color: #303030;
+}
+select, button, input{
+    background-color: #303030;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.titulo-metricas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* padding: 50px; */
+    /* width: 100%; */
+}
+.contenedor-interior {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.panel {
+    background-color: #606060;
+    width: 700px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.btn-correo {
+    display: flex;
+    /* width: 100%; */
+    justify-self: right;
+    padding: 5px 5px 0;
+}
+.btn-cancelacion {
+    display: flex;
+    justify-self: right;
+    align-items: center;
+    padding: 7px;
+    height: 40px;
+    width: fit-content;
+    cursor: pointer;
+    background-color: #002853;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}

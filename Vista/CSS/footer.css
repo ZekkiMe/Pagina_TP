@@ -1,0 +1,15 @@
+footer{
+    background-color: #00331A;
+}
+
+.footer{
+    width: 100%;
+}
+
+.data_footer{
+    padding: 8px;
+    width: 40%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}

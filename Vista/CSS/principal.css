@@ -1,0 +1,66 @@
+.body{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.bloque{
+    border: 1px black;
+    width: 10%;
+    font-size: 18px;
+    padding: 20px;
+    background-color: green;
+}
+
+.espacio{
+    height: 50px;
+}
+
+.alto-centro{
+    height: 362px;
+    background-image: url("../Imagenes/banner_pasta.jpg");
+    background-size: 100%;
+}
+
+.titulo{
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.wrapper{
+    padding: 70px;
+    height: 100px; width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+    margin: auto;
+}
+
+.subwrapper{
+    width:80%;
+    display: block;
+    margin: auto;
+}
+
+.subwrapper1{
+    display:block;
+    width:40%;
+    float: right;
+}
+.subwrapper2{
+    display:block;
+    width:40%;
+    float: left;
+}
+
+.marcas{
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+#imagenpasta{
+    size: 15%;
+}
+

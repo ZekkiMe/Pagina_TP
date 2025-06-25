@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    font-family: 'Philosopher', serif;
+    background-color: rgba(93, 35, 35, 0.89);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+    padding:15px;
+}
+
+.dia {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.tabla_reservas {
+    background-color: rgba(222, 206, 171, 0.89);
+    width: 45%;
+    margin: 2%;
+    padding: 2%;
+}
+
+.dato_reservas {
+    font-size: 2em;
+    text-justify: center;
+    padding: 1%;
+}
+
+form{
+    width: 90%;
+}
+
+.no_hay{
+	width: 98%;
+	height: 200px;
+	background-color: rgba(232, 173, 173, 0.914);
+}
+
+.tabla_platos {
+    width: 95%;
+    border-collapse: collapse;
+    background-color: rgba(232, 173, 173, 0.914);
+}
+
+.fila_plato {
+    border-bottom: solid 5px gray;
+}
+
+.fila_plato:last-child {
+
+    border-bottom: none;
+}
+
+.data_plato {
+    padding: 2%;
+    text-align: left;
+    color: black;
+    font-size: 24px;
+}
+
+.precio {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+
+.cantidad {
+    height: 40px;
+    width: 60px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    color: black;
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.volver {
+    font-size: 2em;
+    width: 200px;
+    height: 50px;
+    color: black;
+    margin: 10px;
+}
+
+.a_cancelar:link {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:active {
+    text-decoration: none;
+    color: black;
+}

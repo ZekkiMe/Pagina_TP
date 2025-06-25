@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Philosopher', serif;
+}
+
+main {
+    background-color: rgba(93, 35, 35, 0.89);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.datos_reserva {
+    padding: 20px;
+    width: 90%;
+    background-color: rgba(157, 87, 87, 0.89);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+h1{
+    font-size: 5em;
+    color: white;
+}
+
+.n{
+    padding: 10px;
+    font-size: 4em;
+    margin-top: 10px;
+    color: white;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: center;
+}
+
+.boton{    
+    margin: 2%;
+    font-size: 4em;
+}
+
+.volver:link {
+    text-decoration: none;
+    color: black;
+}
+
+.volver:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.volver:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.volver:active {
+    text-decoration: none;
+    color: black;
+}

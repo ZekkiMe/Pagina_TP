@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 0;
+}
+
+main{
+    min-height: 100vh;
+    font-family: 'Philosopher', serif;
+    background-color: rgba(93, 35, 35, 0.89);
+    display: flex;
+    flex-direction: column;
+}
+
+.dia{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1{
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.tabla_reservas{
+    background-color: rgba(222, 206, 171, 0.89); 
+    width: 45%;
+    margin: 2%;
+    padding: 2%;
+}
+
+.dato_reservas{
+    font-size: 2em;
+    text-justify: center;
+    padding: 1%;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.volver{
+    font-size: 2em;
+    width: 200px;
+    height: 50px;
+}
+.a_cancelar:link {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.a_cancelar:active {
+    text-decoration: none;
+    color: black;
+}
+
+input{
+    display: none;
+}
+
+.enviar{
+    display: inline;
+}
+
+p{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: rgba(93, 35, 35, 0.89)
+}
