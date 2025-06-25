@@ -1,5 +1,5 @@
 <?php
-function RealizarReserva($fecha, $horario, $cantidad, $nombre, $mail, $observaciones){
+function RealizarReserva($fecha, $horario, $cantidad, $nombre, $mail, $observaciones, $uid){
     try{
         include("conexion.php");
 
@@ -11,8 +11,8 @@ function RealizarReserva($fecha, $horario, $cantidad, $nombre, $mail, $observaci
         $row = $checkStmt->fetch(PDO::FETCH_ASSOC);
 
         $query = "INSERT INTO reservas 
-        (dia, horario, cantidad, nombre, mail, observaciones)
-        VALUES (:dia, :horario, :cantidad, :nombre, :mail, :observaciones)";
+        (dia, horario, cantidad, nombre, mail, observaciones, id_usuario)
+        VALUES (:dia, :horario, :cantidad, :nombre, :mail, :observaciones, :id_usuario)";
 
         $resultado = $base->prepare($query);
 
@@ -22,7 +22,8 @@ function RealizarReserva($fecha, $horario, $cantidad, $nombre, $mail, $observaci
             ':cantidad'=>$cantidad, 
             ':nombre'=>$nombre, 
             ':mail'=>$mail, 
-            ':observaciones'=>$observaciones
+            ':observaciones'=>$observaciones,
+            'id_usuario'=>$uid
         ));
 
         $resultado->closeCursor();
